@@ -7,6 +7,7 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { MapsComponent } from './maps/maps.component';
 import { EventComponent } from './event/event.component';
+import { AccesosComponent } from './accesos/accesos.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EventComponent } from './event/event.component';
     BodyComponent,
     FooterComponent,
     MapsComponent,
-    EventComponent
+    EventComponent,
+    AccesosComponent
   ],
   imports: [
     BrowserModule
