@@ -5,6 +5,7 @@ import { EventComponent } from './event.component';
 describe('EventComponent', () => {
   let component: EventComponent;
   let fixture: ComponentFixture<EventComponent>;
+  
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
