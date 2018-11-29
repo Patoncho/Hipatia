@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MapsComponent } from './maps/maps.component';
 import { EventComponent } from './event/event.component';
 import { AccesosComponent } from './accesos/accesos.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AccesosComponent } from './accesos/accesos.component';
     FooterComponent,
     MapsComponent,
     EventComponent,
-    AccesosComponent
+    AccesosComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
