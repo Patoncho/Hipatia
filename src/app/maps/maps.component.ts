@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MapsComponent implements OnInit {
 	mostrar:boolean = false;
+	text:string="Mostrar";
 
   constructor() { }
 
@@ -15,8 +16,9 @@ export class MapsComponent implements OnInit {
 toggle(){
 if(this.mostrar){ 
 	this.mostrar = false;
+	this.text="Mostrar";
 }
-else{this.mostrar=true;}
+else{this.mostrar=true; this.text="Ocultar";}
 	
 }
 }
