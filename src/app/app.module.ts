@@ -7,17 +7,17 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { MapsComponent } from './maps/maps.component';
 import { EventComponent } from './event/event.component';
-import { DirectComponent } from './direct/direct.component';
-
+import { AccesosComponent} from './accesos/accesos.component';
+import { CarouselComponent} from './carousel/carousel.component';
 @NgModule({
   declarations: [
-    AppComponent,
     HeaderComponent,
     BodyComponent,
     FooterComponent,
     MapsComponent,
     EventComponent,
-    DirectComponent
+    AccesosComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
