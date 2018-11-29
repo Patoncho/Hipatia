@@ -18,7 +18,4 @@ export class MapsComponent implements OnInit {
         };
         let map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
     }
-}
-  }
-
-}
+};
