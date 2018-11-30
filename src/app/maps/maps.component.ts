@@ -17,8 +17,5 @@ export class MapsComponent implements OnInit {
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         let map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-    }
-}
-  }
-
-}
+    };
+};
